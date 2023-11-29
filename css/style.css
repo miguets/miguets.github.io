@@ -1,0 +1,196 @@
+/* Formatear documento */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Barra de Navegacion */
+.nav{
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 100%;
+    min-height: 5rem;
+}
+.logo{
+    width: 100px;
+    height: 80px;
+}
+.nav>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 50%;
+    margin-right: 10px;
+}
+
+.nav>ul>li{
+    list-style: none;
+    align-items: center;
+    margin: 5px;
+    background: rgb(167, 167, 167);
+}
+.nav>ul>li>a{
+    text-decoration:none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    background: rgb(36, 35, 35);
+}
+.nav>ul>li>a:hover{
+    color: rgb(255, 0, 0);
+}
+/* Miguets info en el section  */
+#miguetsinfo>.about-miguets{
+
+    background: rgb(89, 89, 89);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.pmiguets{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: solid;
+    font-weight:lighter;
+    padding: 10px;
+}
+.bongocatm{
+    border-radius: 10rem;
+    padding: 10px;
+}
+
+/* Tarjetas de inicio */
+/*Cards*/
+#cards-info>article{
+	min-width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+    flex-direction: row;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+    font-weight: bold;
+}
+
+.card{
+	max-width: 700px;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 350px;
+}
+.card .cardcontent{
+	padding: 15px;
+	text-align: center;
+}
+.card .cardcontent h3{
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.card .cardcontent p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.card .cardcontent a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .cardcontent a:hover{
+	background: #2fb4cc;
+	color: #fff;
+}
+
+/* Fotter Con links de contacto */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    background: black;
+    bottom: 0;
+    color: white;
+    height: 90px;
+}
+.footer>.footer-autor{
+    font-size: 1.6rem;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer>.footer-contact{
+    font-size: 1.4rem;
+}
+.footer>.contact-links>a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+.footer>.contact-links>a:hover{
+    color: rgb(255, 0, 0);
+
+}
+.footer>.contact-links>a>img{
+    background: white;
+    border-radius: 1rem;
+}
+
+
+/* Para dispositivos moviles */
+@media (max-width: 800px){
+    .nav{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .logo{
+        align-items: center;
+    }
+    .nav>ul{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .nav>ul>li>a{
+        background: rgb(55, 55, 55);
+    }
+    #miguetsinfo>.about-miguets{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .card{
+        margin: 15px;
+    }
+    #cards-info>article{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}

@@ -1,0 +1,63 @@
+about me
+trayectoria academica con materias (aprovado, no aprovado, cursando)
+cv
+pasatiempos 
+habilidades
+
+
+
+¡Hola! Claro, puedo ayudarte a crear un perfil ficticio para un estudiante universitario de cuarto semestre con tus características. Aquí tienes un ejemplo de cómo podrías estructurar tu CV:
+
+---
+
+# [Tu Nombre]
+## Estudiante Universitario | Desarrollador de Software
+
+### Información de Contacto
+- **Correo Electrónico:** tucorreo@example.com
+- **Teléfono:** (123) 456-7890
+- **LinkedIn:** linkedin.com/in/tunombre
+- **GitHub:** github.com/tunombre
+
+### Perfil
+Estudiante universitario apasionado por la programación y los videojuegos, actualmente en el cuarto semestre de [Nombre de tu Carrera]. Participante activo en concursos de programación competitiva, con habilidades destacadas en el desarrollo de scripts y aplicaciones.
+
+### Educación
+**[Nombre de tu Universidad]**
+- Licenciatura en [Nombre de tu Carrera]
+- Cuarto Semestre (Fecha de Inicio - Presente)
+
+### Habilidades Técnicas
+- **Lenguajes de Programación:** Python, Java, C++
+- **Desarrollo de Scripts:** Experiencia en automatización de tareas con Python.
+- **Competencias Técnicas:** Algoritmos y estructuras de datos, desarrollo de software orientado a objetos.
+- **Herramientas y Tecnologías:** Git, Visual Studio Code, Eclipse.
+
+### Experiencia en Programación Competitiva
+Participante activo en competiciones de programación, incluyendo:
+- [Nombre del Concurso] - [Año]
+- [Nombre del Concurso] - [Año]
+
+### Proyectos Destacados
+1. **Desarrollo de Script de Automatización:** Creación de un script en Python para automatizar procesos en [Nombre del Proyecto/Ámbito].
+2. **Juego en Desarrollo:** Colaboración en un equipo de desarrollo para la creación de un juego en [Nombre del Motor de Juegos].
+
+### Experiencia Laboral (si aplica)
+[Nombre de la Empresa o Proyecto] - [Cargo o Rol]
+- [Fecha de Inicio] - [Fecha de Finalización]
+- Descripción breve de las responsabilidades y logros.
+
+### Actividades Extracurriculares
+- Miembro activo del club de programación de la universidad.
+- Organizador voluntario en eventos relacionados con la tecnología y la programación.
+
+### Idiomas
+- [Idioma 1]: [Nivel]
+- [Idioma 2]: [Nivel]
+
+### Pasatiempos
+Aparte de la programación y los videojuegos, disfruto de [Menciona otros pasatiempos o intereses].
+
+---
+
+Recuerda personalizar este modelo según tus experiencias y logros específicos. ¡Espero que te sirva!
