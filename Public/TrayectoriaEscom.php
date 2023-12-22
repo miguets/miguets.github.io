@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/TE.css">
 </head>
 <body>
     <header>
@@ -16,16 +17,32 @@
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../index.html#miguetsinfo">Sobre Mi</a></li>
                 <li><a href="../index.html#cards-info">Proyectos</a></li>
-                <li><a href="./TrayectoriaEscom.php">Trayectoria Escom</a></li>
-                <li><a href="#">Hobbies y Habilidades</a></li>
+                <li><a href="#">Trayectoria Escom</a></li>
+                <li><a href="./HYH.html">Hobbies y Habilidades</a></li>
             </ul>
-
         </nav>
     </header>
     <main>
+        <?php
+            include("./php/trayectoria.php");
+        ?>
         <section>
             <article>
-                <p>uwu</p>
+                <div id="mapdata">
+                    <h2 id="mapatoph">Mapa Curricular Escom (2020)</h2>
+                    <p id="mapatopp">Ingenieria En Sistemas Computacionales</p>
+                    <div class="contnom">
+                        <p class="nomen">Nomenclatura:</p>
+                        <div class="nomenclature">
+                            <p class="nottaken">No Cursado</p>
+                            <p class="taken">Cursado</p>
+                            <p class="studyng">Aún Cursando</p>
+                        </div>
+                    </div>
+                </div>
+                <?php
+                generarHTML($semesters);
+                ?>
             </article>
         </section>
     </main>
