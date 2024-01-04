@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="./css/TE.css">
+    <link rel="stylesheet" href="./css/TA.css">
 </head>
 <body>
     <header>
@@ -16,34 +16,16 @@
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../index.html#miguetsinfo">Sobre Mi</a></li>
-                <li><a href="./Ta.php">Trayectoria</a></li>
-                <li><a href="#">Trayectoria Escom</a></li>
+                <li><a href="#">Trayectoria</a></li>
+                <li><a href="./TrayectoriaEscom.php">Trayectoria Escom</a></li>
                 <li><a href="./HYH.php">Hobbies y Habilidades</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <?php
-            include("./php/trayectoria.php");
-        ?>
         <section>
-            <article>
-                <div id="mapdata">
-                    <h2 id="mapatoph">Mapa Curricular Escom (2020)</h2>
-                    <p id="mapatopp">Ingenieria En Sistemas Computacionales</p>
-                    <div class="contnom">
-                        <p class="nomen">Nomenclatura:</p>
-                        <div class="nomenclature">
-                            <p class="nottaken">No Cursado</p>
-                            <p class="taken">Cursado</p>
-                            <p class="studyng">Aún Cursando</p>
-                        </div>
-                    </div>
-                </div>
-                <?php
-                generarHTML($semesters);
-                ?>
-            </article>
+            <h2>Trayectoria Academica</h2>
+            <?php include("./php/trayectoriaacademica.php"); ?>
         </section>
     </main>
     <footer class="footer">

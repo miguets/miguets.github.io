@@ -1,0 +1,50 @@
+body{
+    background: rgb(199, 199, 199);
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+table {
+    width: 96%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tt>th{
+    font-size: 1.5rem;
+    background: black;
+}
+
+th, td {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background: #252525 ;
+    color: white;
+}
+.footer {
+    position: absolute;
+}
+
+@media (max-width: 1300px){
+    .footer{
+        position: relative;
+    }
+    table{
+        width: 100%;
+    }
+}

@@ -16,7 +16,7 @@
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../index.html#miguetsinfo">Sobre Mi</a></li>
-                <li><a href="../index.html#cards-info">Proyectos</a></li>
+                <li><a href="./Ta.php">Trayectoria</a></li>
                 <li><a href="./TrayectoriaEscom.php">Trayectoria Escom</a></li>
                 <li><a href="#">Hobbies y Habilidades</a></li>
             </ul>
