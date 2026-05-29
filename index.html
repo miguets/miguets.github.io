@@ -3,125 +3,331 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Miguel Angel Rafael Villafuerte — Ingeniero en Sistemas Computacionales</title>
+    <meta name="description" content="Portafolio profesional de Miguel Angel Rafael Villafuerte, Ingeniero en Sistemas Computacionales (ESCOM-IPN). Backend, sistemas distribuidos, visión artificial y machine learning.">
+    <meta name="theme-color" content="#171a40">
+    <link rel="icon" href="./Sources/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Raleway:wght@500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <header>
-        <nav class="nav">
-            <figure>
-               <a href="" class="logo-link"><img src="./Sources/logo.png" alt="Logo" class="logo"></a> 
-            </figure>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#miguetsinfo">Sobre Mi</a></li>
-                <li><a href="./Public/Ta.html">Trayectoria</a></li>
-                <li><a href="./Public/TrayectoriaEscom.html">Trayectoria Escom</a></li>
-                <li><a href="./Public/HYH.html">Hobbies y Habilidades</a></li>
-            </ul>
+<body id="top">
+    <a href="#main" class="skip-link">Saltar al contenido</a>
 
+    <header class="site-header">
+        <nav class="nav" aria-label="Principal">
+            <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-links">
+                <span></span><span></span><span></span>
+            </button>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
         </nav>
     </header>
-    <main>
-        <section id="miguetsinfo">
-            <article class="about-miguets">
-                    <figure>
-                        <img src="./Sources/bongocat.gif" alt="bongocat gif" height="250px" width="450px" class="bongocatm">
-                    </figure>
-                    <p class="pmiguets">Estudiante universitario apasionado por la programación y los videojuegos, actualmente en el cuarto semestre de Ingenieria en Sistemas Computacionales. Participante activo en concursos de programación competitiva, con habilidades destacadas en el desarrollo de scripts y aplicaciones.</p>
-                    
-            </article>
-            <article>
-                <p class="pmiguets">uwu</p>
-            </article>
+
+    <main id="main">
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <p class="hero-eyebrow">Hola, mi nombre es</p>
+                    <h1 class="hero-title">Miguel Angel.</h1>
+                    <h2 class="hero-subtitle">Ingeniero en Sistemas Computacionales.</h2>
+                    <p class="hero-description">
+                        Estudiante de Ingeniería en Sistemas Computacionales en <strong>ESCOM-IPN</strong>
+                        próximo a egresar, con experiencia en sistemas backend distribuidos, aplicaciones
+                        móviles y machine learning. Busco una posición de desarrollo de software, backend
+                        o ciencia de datos.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+                        <a href="./Sources/CV.pdf" class="btn btn-ghost" download>Descargar CV</a>
+                    </div>
+                </div>
+                <div class="hero-photo">
+                    <img src="./Sources/logo.png" alt="Miguel Angel Rafael Villafuerte" class="avatar">
+                </div>
+            </div>
         </section>
-        <section id="cards-info">
-            <h2 class="title-cards">Proyectos y Pasatiempos</h2>
-            <article>
-                <div class="card">
-                        <figure>
-                        <img src="./Sources/proyect1.png" alt="tictactoeia">
-                    </figure>
-                    <div class="cardcontent">
-                        <h3>Tic Tac Toe IA</h3>
-                        <p>Proyecto donde en un juego de tic tac toe se implementa el algoritmo "minimax", para poder realizar los mejores movimientos por turnos en un juego de jugador vs IA</p>
-                        <a href="https://github.com/miguets/tic-tac-toe-with-minimax" target="_blank">Leer Más</a>
+
+        <section id="sobre-mi" class="section section-alt reveal">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Sobre mí</h2>
+                    <span class="section-line" aria-hidden="true"></span>
+                </header>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            Soy estudiante de <strong>Ingeniería en Sistemas Computacionales</strong> en la
+                            Escuela Superior de Cómputo (ESCOM) del Instituto Politécnico Nacional, próximo
+                            a egresar. He desarrollado sistemas <strong>backend distribuidos</strong>,
+                            aplicaciones móviles y modelos de machine learning.
+                        </p>
+                        <p>
+                            Me interesan especialmente el <strong>desarrollo de software</strong>, la visión
+                            artificial y el análisis de imágenes. Trabajo principalmente con Python, Java y C++,
+                            y tengo experiencia con arquitecturas de microservicios y servicios en la nube
+                            (Google Cloud Platform).
+                        </p>
+                        <p>
+                            Busco una posición de <strong>desarrollo de software, backend o ciencia de datos</strong>
+                            donde pueda aportar y seguir creciendo como ingeniero.
+                        </p>
                     </div>
+                    <aside class="about-highlights">
+                        <dl>
+                            <div>
+                                <dt>Educación</dt>
+                                <dd>Ing. en Sistemas Computacionales · ESCOM-IPN (egreso dic. 2026)</dd>
+                            </div>
+                            <div>
+                                <dt>Certificaciones</dt>
+                                <dd class="cert-list">
+                                    <a href="https://app.aluracursos.com/program/certificate/6ac05e7c-b584-4c5c-86fd-62aae6883c10?lang" target="_blank" rel="noopener">Oracle Next Education — Backend (Oracle / Alura)</a>
+                                    <span>Google Cloud Cybersecurity — Google Cloud Skills Boost <span class="cert-status">En curso</span></span>
+                                </dd>
+                            </div>
+                            <div>
+                                <dt>Stack</dt>
+                                <dd>Python · Java · C++ · Kotlin · GCP</dd>
+                            </div>
+                            <div>
+                                <dt>Áreas</dt>
+                                <dd>Backend · Sistemas distribuidos · Visión artificial · ML</dd>
+                            </div>
+                            <div>
+                                <dt>Idiomas</dt>
+                                <dd>Español (nativo) · Inglés (básico)</dd>
+                            </div>
+                            <div>
+                                <dt>Ubicación</dt>
+                                <dd>Ciudad de México, MX</dd>
+                            </div>
+                        </dl>
+                    </aside>
                 </div>
-                <div class="card">
-                    <figure>
-                        <img src="./Sources/programacioncompetitiva.jpg" alt="Soluciones de programación competitiva">
-                    </figure>
-                    <div class="cardcontent">
-                        <h3>Competitive Solutions</h3>
-                        <p>Programas realizados en diferentes <strong>contest</strong> en linea para practicar retos de programación. Junto con problemas resueltos de concursos.</p>
-                        <a href="https://github.com/miguets/CompetitiveSolutions" target="_blank">Leer Más</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <figure>
-                        <img src="./Sources/Gitandgithub.png" alt="Git & Github Apuntes">
-                    </figure>
-                    <div class="cardcontent">
-                        <h3>Git & Github References</h3>
-                        <p>Referencias y apuntes sobre la utilización de Git y Github con ejemplos</p>
-                        <a href="https://github.com/miguets/TryArticle" target="_blank">Leer Más</a>
-                    </div>
-                </div>
-            </article>
-            <!-- Parte 2 xd -->
-            <article>
-                <div class="card">
-                    <figure>
-                        <img src="./Sources/DocDog.jpg" alt="Git & Github Apuntes">
-                    </figure>
-                    <div class="cardcontent">
-                        <h3>Doc Dog</h3>
-                        <p>Impletación de la estructura basica de un bot multifuncional para discord con el cual estoy haciendo pruebas</p>
-                        <a href="https://github.com/miguets/DocDogBot" target="_blank">Leer Más</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <figure>
-                        <img src="./Sources/automatas.png" alt="Git & Github Apuntes">
-                    </figure>
-                    <div class="cardcontent">
-                        <h3>Automatas De uso General</h3>
-                        <p>Automatas realizados para diferentes lenguajes con usos variados.</p>
-                        <a href="https://drive.google.com/drive/folders/1nb-8K-tKOWXrfP5vPMzpi6BYl9HzW5CM?usp=sharing" target="_blank">Leer Más</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <figure>
-                        <img src="./Sources/cursitio.jpg" alt="Git & Github Apuntes">
-                    </figure>
-                    <div class="cardcontent">
-                        <h3>Cursitio <strong>(En progreso)</strong></h3>
-                        <p>Proyecto de una escuela de educación online para la materia de tecnologias para la web</p>
-                        <a href="https://github.com/CurSitio/test" target="_blank">Leer Más</a>
-                    </div>
-                </div>
-            </article>
+            </div>
         </section>
-        <!-- Fin de las tarjetas -->
-        <section>
-            <article>
-                <div class="papeada">
-                    <h3 align="center">Lenguajes que más utilizo</h3>
-                    <p align="center"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+
+        <section id="proyectos" class="section reveal">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Proyectos</h2>
+                    <span class="section-line" aria-hidden="true"></span>
+                </header>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image project-image--ph ph-1">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-tag">Sistemas distribuidos</p>
+                            <h3 class="project-title">Sistema Financiero de Dinero Electrónico</h3>
+                            <p class="project-desc">
+                                Plataforma de dinero electrónico (tipo banco) con arquitectura de
+                                microservicios en Java 17 desplegada en Google Cloud Platform. Autenticación
+                                con JWT, transferencias atómicas event-driven vía Pub/Sub y persistencia en Firestore.
+                            </p>
+                            <ul class="project-stack">
+                                <li>Java 17</li>
+                                <li>Microservicios</li>
+                                <li>GCP</li>
+                                <li>Pub/Sub</li>
+                                <li>Firestore</li>
+                            </ul>
+                            <a href="https://github.com/miguets/CompetitiveSolutions" target="_blank" rel="noopener" class="project-link">
+                                Más información →
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image project-image--ph ph-2">
+                            <span class="project-badge">Trabajo Terminal</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.5 20.5 3.5 13.5a5 5 0 0 1 7-7l7 7a5 5 0 0 1-7 7Z"/><path d="m8.5 8.5 7 7"/></svg>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-tag">Desarrollo móvil · IoT</p>
+                            <h3 class="project-title">Pastillero inteligente</h3>
+                            <p class="project-desc">
+                                Aplicación móvil en Kotlin que gestiona tratamientos y envía recordatorios de
+                                toma de medicamentos, integrada con un pastillero inteligente (IoT) para
+                                monitorear y dispensar las dosis programadas.
+                            </p>
+                            <ul class="project-stack">
+                                <li>Kotlin</li>
+                                <li>Android</li>
+                                <li>IoT</li>
+                            </ul>
+                            <a href="https://github.com/miguets/CompetitiveSolutions" target="_blank" rel="noopener" class="project-link">
+                                Más información →
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image project-image--ph ph-3">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-tag">Machine Learning · Visión</p>
+                            <h3 class="project-title">Medición de deforestación satelital</h3>
+                            <p class="project-desc">
+                                Análisis de imágenes satelitales Sentinel para estimar la pérdida de cobertura
+                                vegetal en la Ciudad de México, con clasificación de uso de suelo mediante
+                                K-Vecinos Más Cercanos (KNN) en Python.
+                            </p>
+                            <ul class="project-stack">
+                                <li>Python</li>
+                                <li>KNN</li>
+                                <li>Sentinel</li>
+                            </ul>
+                            <a href="https://github.com/miguets/CompetitiveSolutions" target="_blank" rel="noopener" class="project-link">
+                                Más información →
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="./Sources/programacioncompetitiva.jpg" alt="Programación competitiva" loading="lazy">
+                            <span class="project-badge">ICPC 2022</span>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-tag">Programación competitiva</p>
+                            <h3 class="project-title">
+                                <a href="https://github.com/miguets/CompetitiveSolutions" target="_blank" rel="noopener">
+                                    Competitive Solutions
+                                </a>
+                            </h3>
+                            <p class="project-desc">
+                                Algunos Codigo realizados en C++ y Python en Codeforces, Omegaup y HackerRank.
+                            </p>
+                            <ul class="project-stack">
+                                <li>C++</li>
+                                <li>Python</li>
+                                <li>Algoritmos</li>
+                            </ul>
+                            <a href="https://github.com/miguets/CompetitiveSolutions" target="_blank" rel="noopener" class="project-link">
+                                Más información →
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="./Sources/proyect1.png" alt="Gato con IA (Minimax)" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <p class="project-tag">Inteligencia artificial</p>
+                            <h3 class="project-title">
+                                <a href="https://github.com/miguets/tic-tac-toe-with-minimax" target="_blank" rel="noopener">
+                                    Gato con IA (Minimax)
+                                </a>
+                            </h3>
+                            <p class="project-desc">
+                                Implementación del algoritmo Minimax para crear un oponente óptimo e imbatible
+                                en el juego del gato (tres en raya).
+                            </p>
+                            <ul class="project-stack">
+                                <li>Python</li>
+                                <li>Minimax</li>
+                                <li>IA</li>
+                            </ul>
+                            <a href="https://github.com/miguets/tic-tac-toe-with-minimax" target="_blank" rel="noopener" class="project-link">
+                                Ver código →
+                            </a>
+                        </div>
+                    </article>
                 </div>
-            </article>
+            </div>
+        </section>
+
+        <section id="contacto" class="section section-alt reveal">
+            <div class="container contact-wrap">
+                <header class="section-header">
+                    <h2>Contacto</h2>
+                    <span class="section-line" aria-hidden="true"></span>
+                </header>
+                <div class="contact-content">
+                    <a href="mailto:mrafaelv0@gmail.com" class="btn btn-primary btn-large">Enviar email</a>
+                    <ul class="social-list" aria-label="Redes">
+                        <li>
+                            <a href="https://github.com/miguets" target="_blank" rel="noopener" aria-label="GitHub">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2c-3.2.69-3.87-1.36-3.87-1.36-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.27-5.24-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.16 1.17.92-.26 1.9-.39 2.88-.39.98 0 1.96.13 2.88.39 2.2-1.48 3.16-1.17 3.16-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.36-5.25 5.65.41.36.78 1.06.78 2.13v3.16c0 .31.21.68.8.56C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+                                <span>GitHub</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/miguets/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+                                <span>LinkedIn</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://platzi.com/p/miguets/" target="_blank" rel="noopener" aria-label="Platzi">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                                <span>Platzi</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:mrafaelv0@gmail.com" aria-label="Email">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                                <span>Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
-    <footer class="footer">
-        <p class="footer-autor">Creado por Miguets</p>
-        <p class="footer-contact">Contacto:</p>
-        <div class="contact-links">
-            <a href="https://github.com/miguets" target="_blank">Github<img src="./Sources/github_logo.png" alt="Github Logo" width="25" height="25"/></a>
-            <a href="https://www.linkedin.com/in/miguets/" target="_blank">Linkedin<img src="./Sources/linkedin-logo.webp" alt="Linkedin Logo" width="25" height="25"/></a>
-            <a href="https://twitter.com/miguetss" target="_blank">Twitter<img src="./Sources/twitter-logo.png" alt="Twitter Logo" width="25" height="25"/></a>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Miguel Angel Rafael Villafuerte · Diseñado y construido con dedicación.</p>
+            <a href="#top" class="back-top" aria-label="Volver arriba">↑</a>
         </div>
     </footer>
-    <script></script>
+
+    <script>
+        const toggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        toggle.addEventListener('click', () => {
+            const isOpen = navLinks.classList.toggle('open');
+            toggle.classList.toggle('open', isOpen);
+            toggle.setAttribute('aria-expanded', String(isOpen));
+        });
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('open');
+                toggle.classList.remove('open');
+                toggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        const header = document.querySelector('.site-header');
+        const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 8);
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+
+        if ('IntersectionObserver' in window) {
+            const io = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('in-view');
+                        io.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+            document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+        } else {
+            document.querySelectorAll('.reveal').forEach(el => el.classList.add('in-view'));
+        }
+
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
